@@ -15,3 +15,11 @@
 
 # User-specific stuff
 .idea/
+
+# Cursor rules and files
+.cursorrules
+.cursor/
+.cursor.json
+.cursor/
+.cursor-test/
+.cursor-local/
