@@ -33,18 +33,19 @@ img {
 }
 
 .button {
-    background-color: var(--button-primary--color);
-    padding: 18px 38px;
-    border-radius: 35px;
-    text-decoration: none;
-    text-align: center;
-    text-transform: capitalize;
-    cursor: pointer;
+    font-weight: 400; 
+    display: flex;
     font-family: var(--main-font);
     color: white;
     font-size: 20px;
     letter-spacing: 0.2px;
-    font-weight: 400;
+    width: 14.75rem;
+    padding: 1rem 0rem;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2.1875rem;
+    background: var(--button-primary--color, #2091F9);
+    cursor: pointer;
 }
 
 .input {

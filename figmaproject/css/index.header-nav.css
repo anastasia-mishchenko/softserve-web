@@ -75,3 +75,19 @@
         }
     }
 }
+
+.navbar__social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s ease;  /* Smooth hover effect */
+    background-size: cover;
+    
+
+    &:hover {
+        transform: scale(1.1);        /* Slight grow on hover */
+    }
+    
+}

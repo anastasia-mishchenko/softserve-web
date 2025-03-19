@@ -1,4 +1,29 @@
 <div class="header-hero">
-
-    
+  <div class="header-hero__content">
+    <div class="header-hero__text-content">
+      <div class="header-hero__text-content-container">
+      <h1 class="header-hero__title">The best products start with Figma</h1>
+      </div>
+      <div class="header-hero__description-container">
+        <p class="header-hero__description">
+          Most calendars are designed for teams
+        </p>
+      </div>
+      </div>
+      <button class="header-hero__button button">Try For Free</button>
+    </div>
+  </div>
 </div>
+<script>
+    function updateText() {
+      const description = document.querySelector('.header-hero__description');
+      if (window.innerWidth >= 768) {
+        description.textContent = 'Most calendars are designed for teams. Slate is designed for freelancers';
+      } else {
+        description.textContent = 'Most calendars are designed for teams';
+      }
+    }
+  
+    window.addEventListener('resize', updateText);
+    window.addEventListener('load', updateText);
+  </script>
