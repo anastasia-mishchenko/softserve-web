@@ -5,7 +5,7 @@
   align-items: center;
   gap: 0.625rem;
   align-self: stretch;
-  height: 50rem;
+  height: 40rem; 
 
   .header-hero__content {
     display: flex;
@@ -64,6 +64,10 @@
         font-weight: 200;
         line-height: 2.5rem; /* 142.857% */
         letter-spacing: 0.0125rem;
+      }
+
+      .header-hero__button{
+        border: none;
       }
     }
   }

@@ -21,6 +21,9 @@
     .navbar__social-container{
         display: none;
     }
+    .navbar__logo-img{
+        padding-left: 10px;
+    }
 
     .navbar__burger-menu{
       margin-left : auto;
@@ -50,7 +53,7 @@
                     font-weight: 400;
                     letter-spacing: 0.2px;
                     &:hover{
-                        color: var(--text-secondary-color);
+                        color: var(--nav-link-text-hover);
                     }
                 }
             }
