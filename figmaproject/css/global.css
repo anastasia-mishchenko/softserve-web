@@ -31,7 +31,7 @@ img {
 
 .header{
     background-image: url("../img/background-image.png");
-    background-size: 100% 100%;
+    background-size: cover;
     width: 100%;
     min-height: 600px;
     background-position: center;
@@ -40,6 +40,7 @@ img {
     padding-bottom: 100px;
     @media (min-width: 1000px){
       min-height: 900px;
+      background-size: 100% 100%;
     }
 }
 
